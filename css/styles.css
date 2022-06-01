@@ -345,12 +345,15 @@ li {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--btn-backgroud-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   letter-spacing: 0.03em;
 }
 
 .team-section-item {
   align-items: center;
   background-color: var(--second-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-section-item:not(:last-child) {
@@ -360,8 +363,6 @@ li {
 .cards {
   padding-top: 30px;
   padding-bottom: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
@@ -736,6 +737,7 @@ li {
 .portfolio-btn:focus {
   background-color: var(--accent-color);
   color: var(--second-text-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .portfolio-cards {
@@ -755,6 +757,11 @@ li {
   flex-basis: calc(100% / 3 - 30px);
   margin-bottom: 30px;
   margin-left: 30px;
+}
+
+.section-item:hover,
+.section-item:focus {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .section-item-header {
