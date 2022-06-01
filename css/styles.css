@@ -146,6 +146,7 @@ li {
   align-items: center;
   justify-content: center; */
   margin-right: 10px;
+
   fill: var(--paragraph-text-color);
 }
 
@@ -177,18 +178,9 @@ li {
   fill: var(--accent-color);
 }
 
-/* .header-contacts .envelope::before {
-  content: "";
-  position: absolute;
-  background-image: url(../images/icons.svg#icon-smartphone);
-  height: 20px;
-  margin-right: 10px;
-  background-size: contain;
-}
-
 . .header-contacts .phone::before {
-} */
-.current {
+}
+*/ .current {
   color: var(--accent-color);
 }
 
@@ -287,12 +279,15 @@ li {
   display: block;
   content: "";
   height: 120px;
-  background-image: url(../images/icons.svg#icon-envelope);
+  background-image: url(../images/icons.svg#icon-astronaut-1);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--btn-backgroud-color);
   margin-bottom: 30px;
+}
+
+.antenna {
 }
 
 .qualities-list-item {
