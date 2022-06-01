@@ -168,13 +168,14 @@ li {
   fill: var(--accent-color);
 }
 
-/* .contact_1 {
-} */
+.contact_1 {
+  display: flex;
+}
 
-/* .contact_1:focus,
+.contact_1:focus,
 .contact_1:hover {
   fill: var(--accent-color);
-} */
+}
 
 /* .header-contacts .envelope::before {
   content: "";
